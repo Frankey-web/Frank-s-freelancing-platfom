@@ -1,0 +1,62 @@
+# Frank-s-freelancing-platfom
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>frankey's freelancing.com</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h2>Login:</h2>
+ <form id="login page" action="signup.html" method="POST"
+ 
+   <br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" type="email" required><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" type="password" minlength="8" required>
+  
+  <a href="reset-password.html">Forgot password?</a></a><br><br>
+
+  <button type="submit">Login</button>
+
+  <p>Don’t have an account? <a href="sign up.html"><em>Create account.</em></a></p>
+</form>
+<style>
+   button{
+     font-family:algerean
+    background-color: cyan;
+    color cyan;
+    border-radius:10px;
+    padding:5px 20px;
+    font-size:15px;
+   }
+   
+   a {
+      color: blue;
+      text-decoration: none;
+      text-align: right;
+    }
+    
+      form{
+   background-color:lightyellow;
+   padding:20px;
+   border-radius:10px;
+   max-width:400px;
+   box-shadow: 0 0 10px;
+  }
+   body{
+     background-color: cyan;
+   }
+   
+</style>
+. 
+</body>
+</html>
